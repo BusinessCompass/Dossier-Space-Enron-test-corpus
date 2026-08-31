@@ -20,6 +20,8 @@ Dossier Space is not a particular AI model, retrieval technology, database, or s
 
 Dossier Space was tested on a vanilla Windows 11 workstation, using out-of-the-box software and AI. AI took the lead in designing and operating.
 
+Broadly:  Sessions 0 to 12 constructed and evaluated the first Dossier Space. Session 13 to 15 transited Dossier Space to a non-MCP-custody-server direct access configuration. Session 16 onwards works with a refreshed configuration based on learnings. 
+
 In practical terms this should be easier to implement in Linux type enviornments. Theoretically it should be possible to implement on Apple products.
 
 It is a **working method and evidential architecture** within which different technologies and analytical techniques can be used where appropriate.
