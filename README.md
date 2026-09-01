@@ -69,9 +69,9 @@ Test whether a fresh AI environment could reconstruct the Dossier Space from its
 **Session 14 — Replication and Error Detection**
 Re-run the earlier smoke test independently to determine whether the principal conclusion could be replicated and whether discrepancies in supporting counts or earlier assertions could be detected. The conclusion survived, while several supporting measurements were corrected.
 
-** Session 15 - Onboarding Raw Enron corpus workin.g**
+**Session 15 - Onboarding Raw Enron corpus working.**
 
-** Session 16 - Planning for a simulated investigation of the corpus.**
+**Session 16 - Planning for a simulated investigation of the corpus.**
 
 ### Overall Progression
 
@@ -219,6 +219,8 @@ For more complex work, the **CIPDA** cycle may be used:
 Together these provide a structured way to define the task before execution and evaluate the resulting work afterwards.
 
 They are intended to support disciplined human–AI working rather than replace professional judgement.
+
+Original publication at https://www.emerald.com/ijqrm/article-abstract/43/7/1801/1370088/From-PDSA-to-PDCA-to-CIPDA-structured-improvement?redirectedFrom=fulltext
 
 ---
 
