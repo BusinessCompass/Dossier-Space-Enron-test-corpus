@@ -20,9 +20,66 @@ Dossier Space is not a particular AI model, retrieval technology, database, or s
 
 Dossier Space was tested on a vanilla Windows 11 workstation, using out-of-the-box software and AI. AI took the lead in designing and operating.
 
-Broadly:  Sessions 0 to 12 constructed and evaluated the first Dossier Space. Session 13 to 15 transited Dossier Space to a non-MCP-custody-server direct access configuration. Session 16 onwards works with a refreshed configuration based on learnings. 
+## Dossier Space Pilot — Session Purpose Summary
 
-In practical terms this should be easier to implement in Linux type enviornments. Theoretically it should be possible to implement on Apple products.
+The Dossier Space Pilot developed progressively from basic platform validation through evidential analysis, governance testing, reproducibility, and transportability. Each session was intended to test a distinct part of the overall method.
+
+**Session 1 — Establish the Dossier Space**
+Create the initial working environment, define the pilot boundaries, establish roles, custody expectations, governance records, and the basic Dossier Space operating model.
+
+**Session 2 — Establish the Evidence Baseline**
+Load and inspect the Enron corpus, confirm that the dataset could be accessed reliably, and establish a known evidential baseline against which later analytical work could be tested.
+
+**Session 3 — Introduce Primers**
+Test whether explicit Primers could guide AI analysis consistently by defining purpose, scope, constraints, evidential expectations, and the reasoning approach before analysis began.
+
+**Session 4 — Test More Complex Analysis**
+Move beyond straightforward retrieval into questions requiring interpretation, linkage between records, chronology, contextual reasoning, and identification of uncertainty.
+
+**Session 5 — Test Structured Analytical Methods**
+Explore whether established methods and analytical techniques could be invoked within the Dossier Space where relevant rather than relying on unconstrained AI reasoning alone.
+
+**Session 6 — Test Evidential Traceability**
+Examine whether findings could be traced back through the analytical process to the underlying source material, search steps, decisions, and supporting evidence.
+
+**Session 7 — Test Governance and Assurance**
+Strengthen the distinction between analysis, operator oversight, and independent assurance, and examine whether the analytical process itself could be reviewed rather than merely its final output.
+
+**Session 8 — Test the Dossier as a Reconstructible Record**
+Assess whether another reviewer could understand what had been asked, what had been done, what evidence had been considered, and why the resulting conclusions had been reached.
+
+**Session 9 — Divergence / “Hanging Thread” Smoke Test**
+Test whether the Dossier Space could identify references to communications or events that appeared in the documentary record but for which no corresponding documentary trace could be found. This introduced missing evidence and evidential divergence as analytical findings in their own right.
+
+**Session 9.5 — Reconciliation and Governance Repair**
+Investigate discrepancies exposed by the Session 9 rerun, reconcile competing result sets, improve logging and custody controls, and preserve rather than conceal differences between analytical runs.
+
+**Session 10 — Architecture Validation**
+Test whether the improved Dossier Space architecture could reproduce the earlier smoke test with stronger custody, instrumentation, hashing, logging, result persistence, and fail-closed controls.
+
+**Session 11 — Independent Smoke-Test Validation**
+Re-run the divergence analysis as a formal validation exercise to determine whether the principal finding survived independent reconstruction and whether the supporting counts and evidence remained defensible.
+
+**Session 12 — Documentary Sequence Reconstruction**
+Test a more realistic evidential task: reconstructing the documentary sequence surrounding Vince Kaminski's analysis or concerns relating to LJM/Raptor valuations, including participants, chronology, information exchanged, responses, off-email activity, and evidential gaps.
+
+**Session 13 — Transportability and Role Separation**
+Test whether a fresh AI environment could reconstruct the Dossier Space from its repository and documentation alone. The session also examined separation between the AI leading the analytical process, the coding tools executing technical work, the human operator, and external assurance.
+
+**Session 14 — Replication and Error Detection**
+Re-run the earlier smoke test independently to determine whether the principal conclusion could be replicated and whether discrepancies in supporting counts or earlier assertions could be detected. The conclusion survived, while several supporting measurements were corrected.
+
+** Session 15 - Onboarding Raw Enron corpus workin.g**
+
+** Session 16 - Planning for a simulated investigation of the corpus.**
+
+### Overall Progression
+
+Taken together, the sessions moved the pilot through a deliberate sequence:
+
+**environment → evidence → guided reasoning → complex analysis → traceability → governance → reproducibility → divergence detection → reconciliation → architecture validation → independent validation → realistic case analysis → transportability → replication.**
+
+The purpose of the pilot was therefore not simply to test whether AI could analyse a large evidence corpus. It was to determine whether AI-assisted analysis could become **visible, governed, reproducible, challengeable, and evidentially defensible**.
 
 It is a **working method and evidential architecture** within which different technologies and analytical techniques can be used where appropriate.
 
