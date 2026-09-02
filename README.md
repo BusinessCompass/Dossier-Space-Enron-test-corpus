@@ -2,6 +2,23 @@
 
 **A sovereign, method-neutral environment for governed AI-assisted evidence analysis**
 
+----------
+**Intellectual Property Rights**
+
+2025© Kenneth Tombs. CIPDA, ROMER, Primer and Dossier Space methods, specifications and previously published materials and research remain subject to their separately stated licences. 
+
+All intellecual property righs are reserved.
+
+Academic paper publication at https://www.emerald.com/ijqrm/article-abstract/43/7/1801/1370088/From-PDSA-to-PDCA-to-CIPDA-structured-improvement?redirectedFrom=fulltext
+
+Related articles published and copyright by the Society for Computers and Law.
+
+USPTO patent number 70648956
+
+----------
+
+**What is it?**
+
 Dossier Space is an experimental working architecture for using AI directly with large evidential or documentary collections while preserving visibility, provenance, method, and assurance.
 
 Periodic articles were published by the UK Society for Computers and Law   https://www.scl.org/ai-assisted-evidence-and-the-dossier-space-experiment/
@@ -219,8 +236,6 @@ For more complex work, the **CIPDA** cycle may be used:
 Together these provide a structured way to define the task before execution and evaluate the resulting work afterwards.
 
 They are intended to support disciplined human–AI working rather than replace professional judgement.
-
-Original publication at https://www.emerald.com/ijqrm/article-abstract/43/7/1801/1370088/From-PDSA-to-PDCA-to-CIPDA-structured-improvement?redirectedFrom=fulltext
 
 ---
 
