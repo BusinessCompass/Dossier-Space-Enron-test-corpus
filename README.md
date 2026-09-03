@@ -3,7 +3,7 @@
 **A sovereign, method-neutral environment for governed AI-assisted evidence analysis**
 
 ----------
-**Intellectual Property Rights**
+**Intellectual Property Rights and Data Protection**
 
 2025© Kenneth Tombs. CIPDA, ROMER, Primer and Dossier Space methods, specifications and previously published materials and research remain subject to their separately stated licences. 
 
@@ -14,6 +14,8 @@ Academic paper publication at https://www.emerald.com/ijqrm/article-abstract/43/
 Related articles published and copyright by the Society for Computers and Law.
 
 USPTO patent number 70648956
+
+All of the names used in this pilot and in the corpus are public domain following the court cases in the United States circa 2006. 
 
 ----------
 
