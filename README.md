@@ -88,9 +88,32 @@ Test whether a fresh AI environment could reconstruct the Dossier Space from its
 **Session 14 — Replication and Error Detection**
 Re-run the earlier smoke test independently to determine whether the principal conclusion could be replicated and whether discrepancies in supporting counts or earlier assertions could be detected. The conclusion survived, while several supporting measurements were corrected.
 
-**Session 15 - Onboarding Raw Enron corpus working.**
+**Session 15 - Configuration and Onboarding Raw Enron corpus working.**
 
 **Session 16 - Planning for a simulated investigation of the corpus.**
+Formal onboarding of the full raw Enron corpus into the new DL-led Dossier Space. It established inventory, SHA-256 integrity baseline, read-only/protection measures, archive structure, logging and assurance, then compared the onboarding against the available ISO/IEC 27037 preview.
+
+**Session 17 - Planning for a simulated investigation of the corpus.**
+Non-expansion metadata assessment. DL analysed the preserved Session 16 metadata without reopening or extracting the ZIP corpus. It assessed 159 ZIP containers, 3.44 million declared members, sizes, expansion ratios, file-type profiles, encryption/path risks and archive characteristics.
+
+**Session 18 - Basic investigation test.**
+Moved from corpus-level understanding into a substantive investigative test, centred on John Dudmesh: was this apparently peripheral contractor someone requiring investigation, or merely a functionary appearing at the edge of the Enron record? DL pursued the documentary references rather than assuming significance from the name alone.
+
+**Session 19 - Taking basic test to a court status submission.**
+Developed the John Dudmesh enquiry into an assured analytical finding — including the important confirmation that the evidence supported his being an Enron contractor performing a technical role, rather than simply leaving him as an unexplained name. This is also where our thinking introduced toward a concise, court-facing analytical report/finding rather than exposing every underlying AI action.
+
+**Session 20 - Emergent/Commuications Network Plooting.**
+Communication-network proof of concept. DL applied graph/network analysis selectively to the Zipper archive: 1,869 unique usable messages, 2,211 observed participant keys and 5,554 directed relationships, reduced to a 42-node interactive visualisation. John was deliberately retained despite having only one observed relationship.  The interactive model is avaliable at https://xplain-r.com/?page_id=630 
+
+**Session 21 - Diplomatics Analysis.**
+A Diplomatics assessment of 12 reproducibly random Enron email records, each with a distinct identifiable primary addressee, across the complete 159-archive canonical corpus.
+
+**Session 22 - Direct versus RAG retrieval.**
+Direct-native search — searched each complete native email.
+Fixed-window chunking/RAG — searched overlapping 1,200-character chunks using lexical retrieval.
+Structure-aware chunking/RAG — searched separate header, current-body, quoted-history, and attachment-declaration chunks.
+
+Strictly speaking, RAG was the retrieval framework, while fixed-window and structure-aware were two different chunking strategies within it. No embeddings or external generative model were used; this was a lexical RAG proof of concept using SQLite FTS5/BM25. A three-way test over the same three verified archives, with fixed questions and known source records so we can measure retrieval accuracy, context quality, and unsupported-answer risk rather than merely compare presentation. Fixed-window lexical RAG offered the best balance of compact retrieval and usable context. 34,593 native emails indexed with zero parsing failures. All three methods retrieved all four known records at rank 1 [Rank 1 = first/best-matching retrieved record Rank 2 = second Rank 5 = fifth]. Structure-aware chunking was precise but split essential context in two cases.
 
 ### Overall Progression
 
