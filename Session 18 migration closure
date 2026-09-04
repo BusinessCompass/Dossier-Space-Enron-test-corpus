@@ -1,0 +1,11 @@
+# Session 18 Closure
+
+Session `DS-20260902-S18` closed at `2026-09-02T15:04:16.8089389+02:00`.
+
+Status: **COMPLETED — ACCEPTED WITH LIMITATIONS**
+
+The replacement P3-1TB SSD, serial `9Y60803411111`, is operational as `D:`. Its corpus matches the accepted Session 16 baseline: 164 files, 79,087,637,104 bytes, with zero missing files, hash mismatches, or size mismatches.
+
+The original Kingston SA400S37480G, serial `50026B7683336CE4`, is retained as `Z:` for rollback and evidential comparison. Closure does not authorize its erasure, reformatting, or reuse.
+
+The final decision incorporates the limitations in `01_ACTUAL/FINAL_RECONCILIATION.yaml` and `04_ASSURANCE/FINAL_REVIEW.md`. No further migration action is authorized or required in this session.

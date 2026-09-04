@@ -1,0 +1,57 @@
+session_id: DS-20260903-S19
+question: >-
+  What does the accepted Enron corpus reliably record about John Dudmesh, what
+  evidential significance can safely be attributed to those records, and what
+  proportionate corroboration should be pursued?
+scope:
+  included:
+    - Validate the corpus-wide Dudmesh search and its coverage.
+    - Preserve and reconcile native matching documents outside the raw corpus.
+    - Distinguish distinct records from duplicate or alternate representations.
+    - Assess identity, role, chronology, provenance, relevance, and limitations.
+    - Produce an evidence scorecard and proportionate follow-up questions.
+    - Record operator-supplied contextual knowledge as a separate source class.
+  excluded:
+    - Any presumption or allegation of misconduct.
+    - Contacting John Dudmesh or any third party without a further recorded decision.
+    - Publishing or unnecessarily disseminating personal information.
+    - Altering, rebaselining, or writing within 01_RAW_CORPUS.
+    - Wholesale corpus extraction or execution of embedded content.
+  date_time_boundaries: Corpus records as received; external corroboration only as separately authorised.
+  entities: [John Dudmesh, Michael Guadarrama, Andy Zipper, David Forster, Enron EEL-IT Front Office, StackManagerServer / EOL]
+planned_sources:
+  - 01_RAW_CORPUS (read-only, accepted Session 16 baseline)
+  - 02_CUSTODY/manifests/DS-20260829-S16_CORPUS_MANIFEST.csv
+  - 02_CUSTODY/integrity_checks/DS-20260829-S16_HASH_RESULTS.csv
+  - 05_WORKING/John_Dudmesh_investigation_20260903 (pre-session discovery input)
+  - Human Operator statement that they have spoken with John Dudmesh (context only until formally captured)
+planned_methods: [direct_native, full_text_regex_metadata, diplomatics, timeline]
+planned_actions:
+  - Validate search implementation and reconcile 159 archives and 3,441,507 file members.
+  - Re-run exact-name and surname searches with documented encoding and false-positive controls.
+  - Hash and register native matched documents and identify byte-identical duplicates.
+  - Examine the email and personnel-list context without executing embedded objects or macros.
+  - Create an evidential scorecard separating observation, inference, corroboration, and limitation.
+  - Prepare neutral confirmation questions; do not initiate contact.
+expected_result_artifacts: [02_RESULTS/SEARCH_REPORT.md, 02_RESULTS/EVIDENTIAL_SCORECARD.md, 02_RESULTS/RESULTS_MANIFEST.csv, 03_FINDINGS/FINDING_REFERENCES.csv, ROMER.md]
+success_conditions:
+  - Search coverage reconciles to the accepted corpus structure with no unexplained read errors.
+  - Native matches are hashed, source-addressed, and duplicates are explicitly classified.
+  - Conclusions do not exceed the documents or separately identified corroboration.
+  - Contact and allegation boundaries remain explicit.
+failure_conditions:
+  - Corpus identity or integrity cannot be reconciled.
+  - Search coverage is incomplete or unexplained.
+  - A matched object cannot be handled without unsafe execution.
+  - Identity ambiguity is presented as certainty.
+assurance_checks:
+  - Independent reconstruction without originating chat.
+  - Recalculation of source-member and exported-file hashes.
+  - Challenge of duplicate-representation and false-positive classifications.
+  - Planned-versus-actual ROMER reconciliation.
+known_uncertainties:
+  - The unavailable smaller corpus and its exact provenance/version have not been identified.
+  - The operator's conversation with John Dudmesh is not yet preserved as a dated statement or interview note.
+  - A corpus reference may establish presence or role without establishing wider relevance.
+approved_by: Human Operator
+approved_at: 2026-09-03T10:31:36+02:00
