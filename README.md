@@ -115,6 +115,12 @@ Structure-aware chunking/RAG — searched separate header, current-body, quoted-
 
 Strictly speaking, RAG was the retrieval framework, while fixed-window and structure-aware were two different chunking strategies within it. No embeddings or external generative model were used; this was a lexical RAG proof of concept using SQLite FTS5/BM25. A three-way test over the same three verified archives, with fixed questions and known source records so we can measure retrieval accuracy, context quality, and unsupported-answer risk rather than merely compare presentation. Fixed-window lexical RAG offered the best balance of compact retrieval and usable context. 34,593 native emails indexed with zero parsing failures. All three methods retrieved all four known records at rank 1 [Rank 1 = first/best-matching retrieved record Rank 2 = second Rank 5 = fifth]. Structure-aware chunking was precise but split essential context in two cases.
 
+**Session 23 Concept Extraction pilot**
+Testing the extraction of concepts discussed by email from the corpus.
+
+**Session 23 Concept Extraction Mapping**
+Continuing the concept extraction and generating an interactive mapping with the data analysis. Map avialble on Xplain-R.com web site.
+
 ### Overall Progression
 
 Taken together, the sessions moved the pilot through a deliberate sequence:
