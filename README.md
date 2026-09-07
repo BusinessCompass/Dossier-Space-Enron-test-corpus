@@ -121,8 +121,11 @@ Testing the extraction of concepts discussed by email from the corpus.
 **Session 24 Concept Extraction Mapping**
 Continuing the concept extraction and generating an interactive mapping with the data analysis. Map avialble on Xplain-R.com web site.
 
-**Session 25 investigation session**
-Review the existing sample materials for defensible lines of enquiry, and follow the strongest lead through the source records. Recording alternative explanations and negative results.
+**session 25 Lexical v RAG comparison**
+No difference in retrieval value shown so closed.
+
+**Session 26 investigations**
+Review the existing sample materials for defensible lines of enquiry, and follow the strongest leads through their source records. Recording alternative explanations and negative results.
 
 ### Overall Progression
 
