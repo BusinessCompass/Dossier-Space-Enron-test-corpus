@@ -127,7 +127,9 @@ No difference in retrieval value shown so closed.
 **Session 26 investigations**
 Review the existing sample materials for defensible lines of enquiry, and follow the strongest leads through their source records. Recording alternative explanations and negative results in a format for counsel to work with.
 
-**Session 27 Closure of Dossier Space**
+**Session 27 investigations reported for counsel review**
+
+**Session 28 Closure of Dossier Space**
 Concluding the planned pilot with record checks, ROMER and final report by AI.
 
 ### Overall Progression
