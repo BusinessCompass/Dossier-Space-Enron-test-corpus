@@ -119,7 +119,7 @@ Strictly speaking, RAG was the retrieval framework, while fixed-window and struc
 Testing the extraction of concepts discussed by email from the corpus.
 
 **Generation 1: Session 24 Concept Extraction Mapping**
-Continuing the concept extraction and generating an interactive mapping with the data analysis. Map avialble on Xplain-R.com web site.
+Continuing the concept extraction and generating an interactive mapping with the data analysis. Map available on Xplain-R.com web site.
 
 **Generation 1: Session 25 Lexical v RAG comparison**
 No difference in retrieval value shown so closed.
@@ -136,7 +136,7 @@ Concluding the planned pilot with record checks, ROMER and final report by AI.
 Session and generation were were halted as API based agent could not maintain necessary context and it became impractical to measure effectiveness.
 
 **Generation 3 (GPT Codex and Caude Chat): Session 1 Validation of prompt and primer origination methods**
-Purpose and method revised to give meaningfull measure of cause and effect for control and primers.
+Purpose and method revised to give meaningfull measure of cause and effect using chat panels for control and primer across multple AI platforms.
 
 ### Overall Progression
 
