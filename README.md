@@ -43,25 +43,25 @@ Dossier Space was tested on a vanilla Windows 11 workstation, using out-of-the-b
 
 The Dossier Space Pilot developed progressively from basic platform validation through evidential analysis, governance testing, reproducibility, and transportability. Each session was intended to test a distinct part of the overall method.
 
-**Session 1 — Establish the Dossier Space**
+**Generation 1 (Claude Code): Session 1 — Establish the Dossier Space**
 Create the initial working environment, define the pilot boundaries, establish roles, custody expectations, governance records, and the basic Dossier Space operating model.
 
-**Session 2 — Establish the Evidence Baseline**
+**Generation 1: Session 2 — Establish the Evidence Baseline**
 Load and inspect the Enron corpus, confirm that the dataset could be accessed reliably, and establish a known evidential baseline against which later analytical work could be tested.
 
-**Session 3 — Introduce Primers**
+**Generation 1: Session 3 — Introduce Primers**
 Test whether explicit Primers could guide AI analysis consistently by defining purpose, scope, constraints, evidential expectations, and the reasoning approach before analysis began.
 
-**Session 4 — Test More Complex Analysis**
+**Generation 1: Session 4 — Test More Complex Analysis**
 Move beyond straightforward retrieval into questions requiring interpretation, linkage between records, chronology, contextual reasoning, and identification of uncertainty.
 
-**Session 5 — Test Structured Analytical Methods**
+**Generation 1: Session 5 — Test Structured Analytical Methods**
 Explore whether established methods and analytical techniques could be invoked within the Dossier Space where relevant rather than relying on unconstrained AI reasoning alone.
 
-**Session 6 — Test Evidential Traceability**
+**Generation 1: Session 6 — Test Evidential Traceability**
 Examine whether findings could be traced back through the analytical process to the underlying source material, search steps, decisions, and supporting evidence.
 
-**Session 7 — Test Governance and Assurance**
+**Generation 1: Session 7 — Test Governance and Assurance**
 Strengthen the distinction between analysis, operator oversight, and independent assurance, and examine whether the analytical process itself could be reviewed rather than merely its final output.
 
 **Session 8 — Test the Dossier as a Reconstructible Record**
@@ -70,67 +70,73 @@ Assess whether another reviewer could understand what had been asked, what had b
 **Session 9 — Divergence / “Hanging Thread” Smoke Test**
 Test whether the Dossier Space could identify references to communications or events that appeared in the documentary record but for which no corresponding documentary trace could be found. This introduced missing evidence and evidential divergence as analytical findings in their own right.
 
-**Session 9.5 — Reconciliation and Governance Repair**
+**Generation 1: Session 9.5 — Reconciliation and Governance Repair**
 Investigate discrepancies exposed by the Session 9 rerun, reconcile competing result sets, improve logging and custody controls, and preserve rather than conceal differences between analytical runs.
 
-**Session 10 — Architecture Validation**
+**Generation 1: Session 10 — Architecture Validation**
 Test whether the improved Dossier Space architecture could reproduce the earlier smoke test with stronger custody, instrumentation, hashing, logging, result persistence, and fail-closed controls.
 
-**Session 11 — Independent Smoke-Test Validation**
+** Generation 1: Session 11 — Independent Smoke-Test Validation**
 Re-run the divergence analysis as a formal validation exercise to determine whether the principal finding survived independent reconstruction and whether the supporting counts and evidence remained defensible.
 
-**Session 12 — Documentary Sequence Reconstruction**
+**Generation 1: Session 12 — Documentary Sequence Reconstruction**
 Test a more realistic evidential task: reconstructing the documentary sequence surrounding Vince Kaminski's analysis or concerns relating to LJM/Raptor valuations, including participants, chronology, information exchanged, responses, off-email activity, and evidential gaps.
 
-**Session 13 — Transportability and Role Separation**
+** Generation 1 (GPT CODEX): Session 13 — Transportability and Role Separation**
 Test whether a fresh AI environment could reconstruct the Dossier Space from its repository and documentation alone. The session also examined separation between the AI leading the analytical process, the coding tools executing technical work, the human operator, and external assurance.
 
-**Session 14 — Replication and Error Detection**
+**Generation 1: Session 14 — Replication and Error Detection**
 Re-run the earlier smoke test independently to determine whether the principal conclusion could be replicated and whether discrepancies in supporting counts or earlier assertions could be detected. The conclusion survived, while several supporting measurements were corrected.
 
-**Session 15 - Configuration and Onboarding Raw Enron corpus working.**
+**Generation 1: Session 15 - Configuration and Onboarding Raw Enron corpus working.**
 
-**Session 16 - Planning for a simulated investigation of the corpus.**
+**Generation 1: Session 16 - Planning for a simulated investigation of the corpus.**
 Formal onboarding of the full raw Enron corpus into the new DL-led Dossier Space. It established inventory, SHA-256 integrity baseline, read-only/protection measures, archive structure, logging and assurance, then compared the onboarding against the available ISO/IEC 27037 preview.
 
-**Session 17 - Planning for a simulated investigation of the corpus.**
+**Generation 1: Session 17 - Planning for a simulated investigation of the corpus.**
 Non-expansion metadata assessment. DL analysed the preserved Session 16 metadata without reopening or extracting the ZIP corpus. It assessed 159 ZIP containers, 3.44 million declared members, sizes, expansion ratios, file-type profiles, encryption/path risks and archive characteristics.
 
-**Session 18 - Basic investigation test.**
+**Generation 1: Session 18 - Basic investigation test.**
 Moved from corpus-level understanding into a substantive investigative test, centred on John Dudmesh: was this apparently peripheral contractor someone requiring investigation, or merely a functionary appearing at the edge of the Enron record? DL pursued the documentary references rather than assuming significance from the name alone.
 
-**Session 19 - Taking basic test to a court status submission.**
+**Generation 1: Session 19 - Taking basic test to a court status submission.**
 Developed the John Dudmesh enquiry into an assured analytical finding — including the important confirmation that the evidence supported his being an Enron contractor performing a technical role, rather than simply leaving him as an unexplained name. This is also where our thinking introduced toward a concise, court-facing analytical report/finding rather than exposing every underlying AI action.
 
-**Session 20 - Emergent/Commuications Network Plooting.**
+**Generation 1: Session 20 - Emergent/Commuications Network Plooting.**
 Communication-network proof of concept. DL applied graph/network analysis selectively to the Zipper archive: 1,869 unique usable messages, 2,211 observed participant keys and 5,554 directed relationships, reduced to a 42-node interactive visualisation. John was deliberately retained despite having only one observed relationship.  The interactive model is avaliable at https://xplain-r.com/?page_id=630 
 
-**Session 21 - Diplomatics Analysis.**
+**Generation 1: Session 21 - Diplomatics Analysis.**
 A Diplomatics assessment of 12 reproducibly random Enron email records, each with a distinct identifiable primary addressee, across the complete 159-archive canonical corpus.
 
-**Session 22 - Direct versus RAG retrieval.**
+**Generation 1: Session 22 - Direct versus RAG retrieval.**
 Direct-native search — searched each complete native email.
 Fixed-window chunking/RAG — searched overlapping 1,200-character chunks using lexical retrieval.
 Structure-aware chunking/RAG — searched separate header, current-body, quoted-history, and attachment-declaration chunks.
 
 Strictly speaking, RAG was the retrieval framework, while fixed-window and structure-aware were two different chunking strategies within it. No embeddings or external generative model were used; this was a lexical RAG proof of concept using SQLite FTS5/BM25. A three-way test over the same three verified archives, with fixed questions and known source records so we can measure retrieval accuracy, context quality, and unsupported-answer risk rather than merely compare presentation. Fixed-window lexical RAG offered the best balance of compact retrieval and usable context. 34,593 native emails indexed with zero parsing failures. All three methods retrieved all four known records at rank 1 [Rank 1 = first/best-matching retrieved record Rank 2 = second Rank 5 = fifth]. Structure-aware chunking was precise but split essential context in two cases.
 
-**Session 23 Concept Extraction pilot**
+**Generation 1: Session 23 Concept Extraction pilot**
 Testing the extraction of concepts discussed by email from the corpus.
 
-**Session 24 Concept Extraction Mapping**
+**Generation 1: Session 24 Concept Extraction Mapping**
 Continuing the concept extraction and generating an interactive mapping with the data analysis. Map avialble on Xplain-R.com web site.
 
-**Session 25 Lexical v RAG comparison**
+**Generation 1: Session 25 Lexical v RAG comparison**
 No difference in retrieval value shown so closed.
 
-**Session 26 investigations**
+**Generation 1: Session 26 investigations**
 Review the existing sample materials for defensible lines of enquiry, and follow the strongest leads through their source records. Recording alternative explanations and negative results in a format for counsel to work with.
 
-**Session 27 investigations reported for counsel review**
+**Generation 1: Session 27 investigations reported for counsel review**
 
-**Session 28 Closure of Dossier Space**
+**Generation 1: Session 28 Closure of Dossier Space**
 Concluding the planned pilot with record checks, ROMER and final report by AI.
+
+**Generation 2 (GPT Codex and Caude Chat): Session 1 Validation of prompt and primer origination methods**
+Session and generation were were halted as API based agent could not maintain necessary context and it became impractical to measure effectiveness.
+
+**Generation 3 (GPT Codex and Caude Chat): Session 1 Validation of prompt and primer origination methods**
+Purpose and method revised to give meaningfull measure of cause and effect for control and primers.
 
 ### Overall Progression
 
