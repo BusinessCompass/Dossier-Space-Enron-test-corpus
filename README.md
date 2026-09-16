@@ -132,12 +132,6 @@ Review the existing sample materials for defensible lines of enquiry, and follow
 **Generation 1: Session 28 Closure of Dossier Space**
 Concluding the planned pilot with record checks, ROMER and final report by AI.
 
-**Generation 2 (GPT Codex and Caude Chat): Session 1 Validation of prompt and primer origination methods**
-Session and generation were were halted as API based agent could not maintain necessary context and it became impractical to measure effectiveness.
-
-**Generation 3 (GPT Codex and Caude Chat): Session 1 Validation of prompt and primer origination methods**
-Purpose and method revised to give meaningfull measure of cause and effect using chat panels for control and primer across multple AI platforms.
-
 ### Overall Progression
 
 Taken together, the sessions moved the pilot through a deliberate sequence:
